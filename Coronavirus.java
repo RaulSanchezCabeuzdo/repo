@@ -3,9 +3,9 @@ public class Coronavirus {
 	private float infeccio;
 	private float mortaldat;
 
-	Coronavirus() {}
+	public Coronavirus() {}
 
-	Coronavirus(float infeccio, float mortaldat) {
+	public Coronavirus(float infeccio, float mortaldat) {
 		this.infeccio=infeccio;
 		this.mortaldat=mortaldat;
 	}
