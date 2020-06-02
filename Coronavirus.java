@@ -1,4 +1,12 @@
 public class Coronavirus {
+	
+	public static void main(String[] args) {
+		Coronavirus catalunya = new Coronavirus();
+		System.out.println(catalunya.toString());
+		
+		Coronavirus china = new Coronavirus(1000000F, 10000F);
+		System.out.println(china.toString());
+	}
 
 	private float infeccio;
 	private float mortaldat;
@@ -48,4 +56,3 @@ public class Coronavirus {
 	}
 
 }
-
